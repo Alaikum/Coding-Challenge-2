@@ -1,0 +1,65 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+
+ border-radius: 12px;
+ padding: 100px;
+}
+
+.logo{
+    width: 250px;
+    display: block;
+    margin: auto;
+
+}
+
+.logo-text{
+    text-align: center;
+    color: lime;
+}
+
+nav{
+  background-color: lime ;
+  text-align: center;
+  height: 40px;
+  padding-top: 15px;
+
+
+}
+
+main{
+  color: white;
+}
+
+
+
+.carica1{
+  background-color: orange;
+  width: 40%;
+
+}
+
+.carica2{
+  background-color: green;
+  width: 75%;
+
+}
+
+.carica3{
+  background-color: red;
+  width: 25%;
+
+}
+
+/* stile e spessore barre ricarica  */
+.carica1, .carica2, .carica3{
+  height: 30px;
+  border-radius: 8px
+
+}
